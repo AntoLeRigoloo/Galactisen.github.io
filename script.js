@@ -2,7 +2,7 @@ import { GLTFLoader } from './3Dmodel/GLTFLoader.js';
 import { EffectComposer } from './Neon/EffectComposer.js';
 import { RenderPass } from './Neon/RenderPass.js';
 import { UnrealBloomPass } from './Neon/UnrealBloomPass.js';
-import {ScrollTrigger} from "./gsap/ScrollTrigger.js";
+import {ScrollTrigger} from "./GSAP/ScrollTrigger.js";
 
 var scene = new THREE.Scene();
 const camera = new THREE.PerspectiveCamera(45,window.innerWidth / window.innerHeight,0.1,1000);
