@@ -253,7 +253,6 @@ h1{
   gap: 40px;
 }
 .equipe-photo{
-  position: relative;
 }
 .equipe{
   width: 80%;
@@ -265,7 +264,6 @@ h1{
 .equipe-text{
   color: white;
   font-size: 25px;
-  position: absolute;
   z-index: 100;
   top: 20px;
   width: 100%;
@@ -285,9 +283,21 @@ h1{
   margin-bottom: 20px;
   justify-content: flex-end;
   overflow: hidden;
-  position: relative;
 
 
+}
+.equipe-elements::before{
+  content: "Bureau";
+  position: absolute;
+  top: 20px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+  font-size: 25px;
+  color: white;
+  text-align: center;
+  transition: all 0.5s ease-in-out;
 }
 
 
